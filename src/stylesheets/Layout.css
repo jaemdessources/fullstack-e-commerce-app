@@ -1,0 +1,118 @@
+.navbar {
+  background-color: #003f5c !important;
+}
+.navbar-brand {
+  font-weight: bold !important;
+}
+.nav-link,
+.navbar-brand {
+  color: #fff !important;
+}
+
+.navbar-toggler-icon {
+  background-image: none;
+}
+
+footer {
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+  background-color: #003f5c;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+
+.content {
+  padding-top: 80px;
+}
+
+button {
+  background-color: #003f5c;
+  box-shadow: none;
+  border: 1px solid rgba(255, 255, 255, 0.692);
+  color: #fff;
+  padding: 5px;
+}
+
+.loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+}
+.spinner-border {
+  height: 100px;
+  width: 100px;
+}
+a {
+  text-decoration: none;
+}
+input,
+select {
+  height: 35px !important;
+}
+
+.nav-item button {
+  color: black !important;
+}
+/*
+.nav-tabs { 
+  background-color: cadetblue;
+} */
+
+h1 {
+  margin-bottom: 20px;
+}
+.close {
+  background: rgba(255, 0, 0, 0.7);
+}
+.close:hover {
+  background: rgba(255, 50, 50, 0.7);
+}
+
+.save {
+  background: #003f5c;
+}
+
+.save:hover {
+  background-color: #015d87;
+}
+
+.order {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+
+  max-width: 98%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.order .product-cart-img-td {
+  width: 15%;
+  min-width: 10%;
+}
+
+.order .product-cart-name-td {
+  width: 75%;
+}
+
+/* .order .product-cart-price-td{
+  width:
+} */
+@media screen and (max-width: 700px) {
+  .content {
+    overflow-x: scroll;
+  }
+  .order {
+    max-width: 97%;
+  }
+}
